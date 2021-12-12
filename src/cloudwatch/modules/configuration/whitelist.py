@@ -3,7 +3,7 @@ from os import path
 from string import strip
 from threading import Lock
 
-from configreader import ConfigReader
+from .configreader import ConfigReader
 from ..logger.logger import get_logger
 
 
